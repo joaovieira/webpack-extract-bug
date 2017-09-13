@@ -6,8 +6,8 @@ http-server ./dist
 npx webpack -w
 ```
 
-* Open browser on `https://localhost:8080` (or the default port provided by http-server)
-** Should see correct `test` output in console
+* Open browser on `https://localhost:8080/index.html` (or the default port provided by http-server)
+  * Should see correct `test` output in console
 * Change `main.scss`
 * Reload
 * Modules have been reordered, causing our `test` function to be called with something else and crash
